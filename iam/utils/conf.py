@@ -2,12 +2,12 @@
 
 #Database credentials
 db = 'cab_booking'
-username = ''
-password = ''
+username = 'root'
+password = 'hello123'
 
 #Scheduler credentials
 subject = ' Cron Scheduler'
 server = "smtp.gmail.com"
 sender = 'cab9leaps@gmail.com'
 sender_password = 'team@9leaps'
-receiver = 'vijay.kapoor@nineleaps.com'
+receiver = 'ruchi.bhardwaj@nineleaps.com'
