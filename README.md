@@ -16,12 +16,7 @@ Setup for Running the Project
 Credentials to run the project :
 ---
 ```
-1. ADMIN:
-   Username: admin
-   Password: 123456
-2. Employee:
-   Username: raj
-   Password: 123456
+Create your own admin from the menu.
 ```
 Setup for Running test cases
 ---
