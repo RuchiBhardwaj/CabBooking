@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+PyMySQLProxyCursor.egg-info/PKG-INFO
+PyMySQLProxyCursor.egg-info/SOURCES.txt
+PyMySQLProxyCursor.egg-info/dependency_links.txt
+PyMySQLProxyCursor.egg-info/requires.txt
+PyMySQLProxyCursor.egg-info/top_level.txt
+proxycursor/__init__.py
+proxycursor/tests/__init__.py
+proxycursor/tests/base.py
+proxycursor/tests/test_handlers.py
+proxycursor/tests/test_sqlparser.py
+proxycursor/utils/__init__.py
+proxycursor/utils/parser.py
