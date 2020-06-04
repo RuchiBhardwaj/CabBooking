@@ -23,7 +23,7 @@ class main:
         choice = input(">>> ").lstrip()
         return choice
 
-    def Login(self, db):
+    def login(self, db):
         """
         Login functionality and employee validation.
         """
@@ -48,7 +48,7 @@ class main:
             else:
                 print('incorrect password')
 
-    def Login_master(self, db):
+    def login_master(self, db):
         """
         Implementation of the menu.
         """

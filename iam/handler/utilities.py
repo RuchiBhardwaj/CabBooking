@@ -134,6 +134,7 @@ class Register:
                 avl_detail_cab.append(cab_details)
             selected_cab = input("\nEnter the cab number to confirm the booking: ")
             self.book_cab(emp_id, selected_cab, avl_detail_cab, source, destination)
+            return True
 
         except exc.SQLAlchemyError as e:
             print("Error while booking the cab: {}".format(e))
@@ -166,6 +167,7 @@ class Register:
             session.add(new_booking)
             session.commit()
             print(" cab booked successfully!")
+            return True
 
         except exc.SQLAlchemyError as e:
             print("Error while booking the cab: {}".format(e))
